@@ -1,0 +1,156 @@
+
+
+.ex-1-square:hover{
+    background-color: red;
+    transition: 2s;
+}
+
+.ex-2-square:hover{
+    transition: 2s;
+    width: 100%;
+}
+
+.ex-3-square:hover{
+    transition: 2s;
+    border-radius: 50%;
+}
+
+.ex-4-square:hover{
+    background-color: white;
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    transition: 2s;
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transition: 2s;
+    transform: scale(1)
+}
+
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+    border-radius: 10px;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(100%);
+    transition: 2s;
+    border-radius: 10px;
+    transform: scale(1.5);
+}
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+
+}
+@keyframes spin {
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+.ex-11-icon:hover{
+    animation: loading 1s linear;
+}
+@keyframes loading {
+    0%{
+        transform: rotate(0);
+    }
+
+    75%{
+        transform: rotate(300deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.ex-12-top-white{
+    animation: button 1s linear;
+}
+@keyframes button {
+    0% {
+        left: 10%;
+    }
+   
+    100% {
+        left: 100%;
+    }
+}
+
+.ex-12-bottom-white{
+    animation: button2 1s linear ;
+}
+@keyframes button2 {
+    0% {
+        right: 10%;
+    }
+    
+    100% {
+        right: 100%;
+    }
+}
+
+.ex-13-top-white{
+    animation: button3 3s linear infinite;
+}
+@keyframes button3 {
+    0% {
+        left: 10%;
+    }
+    25%{
+        left: 100%;
+    }
+
+    50%{
+        bottom: 100%;
+    }
+
+    75%{
+        right: 100%;
+    }
+
+    100% {
+        top: 100%
+        
+    }
+}
+
+.ex-13-bottom-white{
+    animation: button4 3s linear infinite;
+}
+@keyframes button4 {
+    0% {
+        right: 10%;
+    }
+    25%{
+        right;: 100%
+    }
+
+    50%{
+        top: 100%;
+    }
+
+    75%{
+        left: 100%;
+    }
+
+    100% {
+        bottom;: 100%
+        
+    }
+}
